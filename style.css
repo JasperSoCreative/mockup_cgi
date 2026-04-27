@@ -9,6 +9,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 2rem;
+    align-items: center;
 }
 .containerarticle {
     display: grid;
@@ -76,10 +77,45 @@ figcaption {
     background: linear-gradient(180deg,rgba(80, 0, 251, 1) 0%, rgba(0, 0, 0, 1) 100%);
     min-height: 100vh;
 }
+.midsec {
+    background: #000000;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(80, 0, 251, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    min-height: 100vh;
+}
 .articleheader {
     text-align: left;
     font-weight: 600;
     margin-bottom: 0.5rem;
     padding-top: 0.5rem;
     text-wrap: none;
+}
+.texthalf {
+    text-align: left;
+    min-width: 50%;
+    max-width: 50%;
+    flex: 1;
+}
+img {
+    max-width: 50%;
+}
+.halfimage {
+    max-width: 30%;
+    min-width: 30%;
+    object-fit: cover;
+    flex: 1;
+}
+.textsides {
+    flex: 1;
+}
+.sides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+.full {
+    max-width: 75%;
+    margin: 0 auto;
+    display: block;
 }
