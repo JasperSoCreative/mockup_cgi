@@ -39,6 +39,7 @@ br {
 }
 .title {
     padding-bottom: 6rem;
+    padding-top: 6rem;
 }
 h1 {
     font-family: var(--header-font);
@@ -118,4 +119,7 @@ img {
     max-width: 75%;
     margin: 0 auto;
     display: block;
+}
+.endingsentence {
+    padding-bottom: 20rem;
 }
