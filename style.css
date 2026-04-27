@@ -1,0 +1,85 @@
+:root {
+    --header-font: "Crimson Pro";
+    --body-font: "Figtree";
+    --tmdgray: #CCCCCC;
+}
+.container {
+    display: grid;
+    max-width: 100ch;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.containerarticle {
+    display: grid;
+    max-width: 60ch;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+html, body {
+    font-family: var(--body-font);
+    font-size: 15pt;
+    color: white;
+    background-color: black;
+    line-height: 1.35;
+    overflow-x: clip;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+}
+br {
+    user-select: none;
+}
+.title {
+    padding-bottom: 6rem;
+}
+h1 {
+    font-family: var(--header-font);
+    text-align: center;
+    font-weight: 700;
+
+    text-wrap: balance;
+    font-size: 2.5rem;
+}
+h2 {
+    text-align: center;
+    font-weight: 400;
+    text-wrap: balance;
+}
+h3 {
+    text-align: center;
+    text-wrap: balance;
+    font-weight: 200;
+}
+strong {
+    font-weight: bold;
+}
+.article {
+    text-align: left;
+    padding-top: 10rem;
+    margin-bottom: 0.5rem;
+
+}
+figcaption {
+    font-size: 0.8rem;
+    color: var(--tmdgray);
+    padding-bottom: 1rem;
+}
+.opener {
+    background: #5000FB;
+    background: linear-gradient(180deg,rgba(80, 0, 251, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    min-height: 100vh;
+}
+.articleheader {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    text-wrap: none;
+}
